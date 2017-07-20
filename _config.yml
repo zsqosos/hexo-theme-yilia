@@ -2,22 +2,25 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  生活: /categories/life/
+  程序: /categories/program/
+  摘录: /categories/extract
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/zsqosos"
+  cnblog: "http://www.cnblogs.com/zsqos/"
+  #jianshu: "http://www.jianshu.com/u/3da9370f26dd"
+  weibo: "http://weibo.com/1898198464/profile?topnav=1&wvr=6"
+  rss: "/atom.xml"
+  #zhihu: "https://www.zhihu.com/people/summer-33-95"
   #qq: "#"
   #weixin: "#"
-  #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: "#"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -28,32 +31,32 @@ rss: /atom.xml
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-root: 
+root:
 
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link: 展开全文
 # 文章卡片右下角常驻链接，不需要请设置为false
-show_all_link: '展开全文'
+show_all_link: 查看全文
 # 数学公式
 mathjax: false
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay:
 # 微信二维码图片地址
-weixin: 
+weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 0
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -65,13 +68,13 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: "/assets/img/favicon.jpg"
 
 #你的头像url
-avatar:
+avatar: "/assets/img/avatar.jpg"
 
 #是否开启分享
-share_jia: true
+share_jia: false
 
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉
 #具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
@@ -108,7 +111,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 friends:
@@ -119,4 +122,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 一名攻城狮<br>一名程序猿<br>一个妄想用技术改变世界的人<br><br>胆小认生&nbsp;不易相处<br>年少无为&nbsp;卖马为生
