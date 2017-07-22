@@ -66,9 +66,9 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
+baidu_analytics: 'b20fbdb176ceb758275f3b14114d106a'
 google_analytics: ''
-favicon: "/assets/img/favicon.jpg"
+favicon: "/assets/img/favicon.png"
 
 #你的头像url
 avatar: "/assets/img/avatar.jpg"
@@ -102,7 +102,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -123,3 +123,4 @@ friends:
   友情链接6: http://localhost:4000/
 
 aboutme: 一名攻城狮<br>一名程序猿<br>一个妄想用技术改变世界的人<br><br>胆小认生&nbsp;不易相处<br>年少无为&nbsp;卖马为生
+
