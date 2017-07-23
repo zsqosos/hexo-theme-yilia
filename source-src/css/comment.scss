@@ -1,6 +1,15 @@
-#disqus_thread, .duoshuo, .cloud-tie-wrapper, #SOHUCS {
-	padding: 0 30px !important;
-	min-height: 20px;
+@media screen and (max-width: 800px) {
+  #disqus_thread, .duoshuo, .cloud-tie-wrapper, #SOHUCS, #lv-container {
+    padding: 0 10px !important;
+    min-height: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #disqus_thread, .duoshuo, .cloud-tie-wrapper, #SOHUCS, #lv-container {
+    padding: 0 30px !important;
+    min-height: 20px;
+  }
 }
 
 #SOHUCS {
